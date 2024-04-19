@@ -1,6 +1,6 @@
 name: 'Astute-ci-Build-image-run-tests'
 on:
-  pull_request:
+  push:
     branches:
       - '**'
 jobs:
